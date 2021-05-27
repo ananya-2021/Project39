@@ -71,7 +71,7 @@ function setup() {
 function draw() {
   //trex.debug = true;
   background(100);
-  text("Score: "+ score, trex.x + 200,trex.y - 50);
+  text("Score: "+ score, trex.x + 200,500);
   ground.x = trex.x
   invisibleGround.x = trex.x
   restart.x = trex.x;
